@@ -1,8 +1,9 @@
 include(FetchContent)
 
 FetchContent_Declare(highfive
-        URL ${highfive_URL}
-        PATCH_COMMAND git init && git apply --verbose --ignore-whitespace "${PROJECT_SOURCE_DIR}/cmake/patches/${highfive_PATCH}"
+        GIT_REPOSITORY ${highfive_URL}
+        GIT_TAG ${highfive_TAG}
+#        PATCH_COMMAND git init && git apply --verbose --ignore-whitespace "${PROJECT_SOURCE_DIR}/cmake/patches/${highfive_PATCH}"
 )
 
 set(HIGHFIVE_UNIT_TESTS OFF CACHE BOOL "" FORCE)
