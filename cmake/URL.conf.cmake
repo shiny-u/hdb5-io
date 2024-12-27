@@ -3,7 +3,7 @@
 
 
 # MathUtils
-set(mathutils_URL git@frydom-ce.org:ce/mathutils.git)
+set(mathutils_URL https://github.com/shiny-u/mathutils.git)
 set(mathutils_TAG v1.14.3 CACHE STRING "MathUtils version")
 set(MATHUTILS_BUILD_TESTS OFF CACHE BOOL "")
 set(MATHUTILS_BUILD_BOOST_TESTS OFF CACHE BOOL "")
@@ -13,16 +13,16 @@ set(eigen_URL https://gitlab.com/libeigen/eigen.git  CACHE STRING "eigen reposit
 set(eigen_TAG 3.3.7 CACHE STRING "eigen version")
 
 # HighFive
-set(highfive_URL https://github.com/BlueBrain/HighFive/archive/refs/tags/v2.4.1.tar.gz)
-set(highfive_TAG v2.4.1)
-set(highfive_PATCH highfive_v2.4.1.patch)
+set(highfive_URL https://github.com/BlueBrain/HighFive.git)
+set(highfive_TAG v2.x)
+set(highfive_PATCH highfive_v2.x.patch)
 
 # GoogleTest
 set(googletest_URL https://github.com/google/googletest.git)
 set(googletest_TAG v1.15.2 CACHE STRING "googletest version")
 
 # meshoui
-set(meshoui_URL git@frydom-ce.org:ce/meshoui.git)
+set(meshoui_URL https://github.com/shiny-u/meshoui.git)
 set(meshoui_TAG v1.4 CACHE STRING "meshoui version")
 
 # zlib
