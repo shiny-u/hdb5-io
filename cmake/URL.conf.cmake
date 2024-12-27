@@ -13,9 +13,9 @@ set(eigen_URL https://gitlab.com/libeigen/eigen.git  CACHE STRING "eigen reposit
 set(eigen_TAG 3.3.7 CACHE STRING "eigen version")
 
 # HighFive
-set(highfive_URL https://github.com/BlueBrain/HighFive/archive/refs/tags/v2.4.1.zip)
-set(highfive_TAG v2.4.1)
-set(highfive_PATCH highfive_v2.4.1.patch)
+set(highfive_URL https://github.com/BlueBrain/HighFive.git)
+set(highfive_TAG v2.x)
+# set(highfive_PATCH highfive_v2.4.1.patch)
 
 # GoogleTest
 set(googletest_URL https://github.com/google/googletest.git)
